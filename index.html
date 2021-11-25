@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript thing</title>
+	<script type="text/javascript">
+	function reset(){
+		document.getElementById("change").innerHTML="Click the buttons below! and use the yes/no after the messages! then, Click the next message after you answer y/n! or just click the reset button!"
+	}
+	function no(){
+		document.getElementById("change").innerHTML="ok"
+	}
+	function yes(){
+		document.getElementById("change").innerHTML="Cool!"
+	}
+	function message1(){
+		document.getElementById("change").innerHTML="Did you know? goldi likes pies?";
+	}
+	function message2(){
+		document.getElementById("change").innerHTML="This is javascript btw! do you like it?"
+	}
+	function message3(){
+		document.getElementById("change").innerHTML="I learned how to make this in class!! by the way, do you like cats?"
+	}
+	function message4(){
+		document.getElementById("change").innerHTML="Im glad you tried out my program, Have a great day, Ok? but before you close this tab, I have one more y/n question for you, Are you a furry(in games)(a furry is a person that acts like a animal!)"
+	}
+	</script>
+</head>
+<body>
+	<h1 id="change">Click the buttons below! and use the yes/no after the messages! then, Click the next message after you answer y/n! or just click the reset button!</h1>
+<button onclick="reset()">Reset message</button>
+<button onclick="yes()">yes</button>
+<button onclick="no()">no</button><br>
+<button onclick="message1()">First message</button>
+<button onclick="message2()">Second message</button>
+<button onclick="message3()">Third message</button>
+<button onclick="message4()">Final message</button>
+</body>
+</html>
